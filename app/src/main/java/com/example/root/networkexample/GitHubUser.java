@@ -6,7 +6,6 @@ package com.example.root.networkexample;
 
 public class GitHubUser {
     String login;
-    String name;
     String email;
 
     @Override
