@@ -8,6 +8,7 @@ public class GitHubUser {
     String login;
     String email;
     String name;
+    String address;
 
     public String toString() {
         return(login);
