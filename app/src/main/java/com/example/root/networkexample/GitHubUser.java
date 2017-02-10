@@ -8,9 +8,8 @@ public class GitHubUser {
     String login;
     String email;
     String name;
-    String something;
+    String address;
 
-    @Override
     public String toString() {
         return(login);
     }
