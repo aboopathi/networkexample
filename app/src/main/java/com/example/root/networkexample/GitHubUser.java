@@ -7,8 +7,8 @@ package com.example.root.networkexample;
 public class GitHubUser {
     String login;
     String email;
+    String name;
 
-    @Override
     public String toString() {
         return(login);
     }
