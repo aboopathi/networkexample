@@ -36,12 +36,10 @@ public class MainActivity extends AppCompatActivity implements Callback<GitHubUs
     }
 
     private void showListFragment() {
-
         android.app.FragmentTransaction fragmentTransaction= getFragmentManager().beginTransaction();
         UserFragment fragment = UserFragment.newInstance("param1","param2");
         fragmentTransaction.add(R.id.user, fragment);
         fragmentTransaction.commit();
-
     }
 
     public void onClick(View view) {
