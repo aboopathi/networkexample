@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements Callback<GitHubUs
         Gson gson = new GsonBuilder()
                 .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create();
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(GitAPI.END_POINT)
                 .addConverterFactory(GsonConverterFactory.create(gson))
